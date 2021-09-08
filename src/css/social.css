@@ -1,0 +1,36 @@
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 22rem;
+  margin-bottom: 10rem;
+  z-index: 1000;
+}
+.socialItems {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 5rem;
+  z-index: 1000;
+}
+.background {
+  background-color: #f6f9fc;
+  height: 100%;
+  width: 500%;
+  position: absolute;
+  z-index: 900;
+  left: 50%;
+  transform: translate(-50%);
+}
+@media (max-width: 768px) {
+  .social {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .socialItems {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

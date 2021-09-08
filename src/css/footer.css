@@ -1,0 +1,58 @@
+.footer {
+  position: relative;
+}
+.footerBG {
+  background-color: rgb(246, 249, 252);
+  height: 110%;
+  width: 500%;
+  position: absolute;
+  z-index: 900;
+  left: 50%;
+  transform: translate(-50%);
+}
+.footerFlex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1000;
+}
+.footerStates {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: flex-start;
+  width: 25%;
+}
+
+.products {
+  width: 25%;
+}
+.products h5 {
+  color: #0a2540;
+}
+.developers {
+  width: 25%;
+}
+.developers h5 {
+  color: #0a2540;
+}
+.useCases {
+  width: 25%;
+}
+.useCases h5 {
+  color: #0a2540;
+}
+.footerLinks {
+  display: inline-block;
+  color: #0a2540;
+  width: 100%;
+  margin: 0.5rem 0;
+}
+@media (max-width: 1024px) {
+  .footer {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+  }
+}

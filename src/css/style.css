@@ -1,0 +1,64 @@
+body {
+  background-color: #fff;
+  font-family: sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.container {
+  width: 77%;
+  margin: 0 auto;
+}
+.customers {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 6rem;
+}
+.customersNavigation {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.overview {
+  width: 33%;
+  display: flex;
+  justify-content: flex-end;
+}
+.overviewItem {
+  margin-right: 1rem;
+}
+.customerItem {
+  list-style-type: none;
+  font-family: sans-serif;
+  color: #0a2540;
+}
+.purple {
+  color: #635bff;
+}
+@media (max-width: 1024px) {
+  .container {
+    width: 1024px;
+    overflow-x: hidden !important;
+  }
+  .customers {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    width: 768px;
+    overflow-x: hidden !important;
+  }
+  .customers {
+    margin-bottom: 3rem;
+  }
+  .overview {
+    width: 43%;
+  }
+}

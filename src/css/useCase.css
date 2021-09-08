@@ -1,0 +1,130 @@
+.useCase {
+  padding-bottom: 10rem;
+}
+.specialWidth {
+  width: 60%;
+}
+.useImages {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px 300px 300px;
+  grid-gap: 1rem;
+  color: white;
+}
+.useImagesOne {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  border-radius: 15px;
+  padding: 1rem;
+  background-image: url(https://images.ctfassets.net/fzn2n1nzq965/3NZotoBmgMJ6HKcOmJHDgh/95239acc0baaf0e51f67e26328a77c9e/Kickstarter_portrait.png?fm=webp&w=1064&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.useImagesTwo {
+  display: flex;
+  flex-wrap: wrap;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  border-radius: 15px;
+  padding: 1rem;
+  background-image: url(https://images.ctfassets.net/fzn2n1nzq965/2jyGTiQUIVkCxitHRoTaE2/6b52064f850f946cb03f5e73527fd92b/Instacart_landscape.png?fm=webp&w=1668&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.useImagesThree {
+  display: flex;
+  flex-wrap: wrap;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  border-radius: 15px;
+  padding: 1rem;
+  background-image: url(https://images.ctfassets.net/fzn2n1nzq965/58pw8ZcF8cj7GXLabsQTXI/77eb9b786b1fbaa69f41062bef04c3d5/SkipTheDishes_landscape.png?fm=webp&w=1668&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.useImagesFour {
+  display: flex;
+  flex-wrap: wrap;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  border-radius: 15px;
+  padding: 1rem;
+  background-image: url(https://images.ctfassets.net/fzn2n1nzq965/QuvYHRnwdxcXAQAOIpNPw/c176cfbe30d3586a3bdd8ad1dfb7185c/Postmates_landscape.png?fm=webp&w=1668&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.useImagesFive {
+  display: flex;
+  flex-wrap: wrap;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  border-radius: 15px;
+  padding: 1rem;
+  background-image: url(https://images.ctfassets.net/fzn2n1nzq965/vooA309y6v62ozfJBrRDs/a338d73929edee3a47aea817661a8c04/Meetup_landscape.png?fm=webp&w=1668&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.useImagesSix {
+  display: flex;
+  flex-wrap: wrap;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 5;
+  border-radius: 15px;
+  padding: 1rem;
+  background-image: url(https://images.ctfassets.net/fzn2n1nzq965/7q0bnizxKfotDFs3x6qUvx/18b89f9641a08edadbd17666a1e6760b/Lyft_portrait.png?fm=webp&w=532&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.useImageOneTitle {
+  font-weight: bold;
+}
+.useImageTwoTitle {
+  display: inline-block;
+  width: 100%;
+}
+.useImageThreeTitle {
+  font-style: italic;
+}
+.useImageFourTitle {
+  font-weight: normal;
+}
+.useImageSixTitle {
+  display: inline-block;
+  width: 100%;
+  font-weight: bold;
+}
+.useImageItemdescr {
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0;
+}
+@media (max-width: 1024px) {
+  .useCase {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+  }
+  .specialWidth {
+    padding: 0;
+  }
+}
+@media (max-width: 768px) {
+  .specialWidth {
+    width: 70%;
+  }
+}

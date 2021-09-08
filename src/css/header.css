@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+.navigationItem {
+  list-style-type: none;
+  color: #0a2540;
+  font-weight: bold;
+  margin-left: 1rem;
+  font-size: 0.9em;
+}
+.signIn {
+  color: white;
+  background-color: #0a2540;
+  height: 2rem;
+  width: 6rem;
+  border-radius: 15px;
+  font-size: 15px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.arrow {
+  margin-left: 0.5rem;
+}
+@media (max-width: 1024px) {
+  .header {
+    width: 90%;
+  }
+}

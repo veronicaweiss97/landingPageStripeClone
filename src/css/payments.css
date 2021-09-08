@@ -1,0 +1,153 @@
+.payments {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+  margin-bottom: 11rem;
+}
+.paymentsDescription {
+  width: 40%;
+}
+.descriptionTitle {
+  color: #0a2540;
+  font-size: 3em;
+  line-height: 2.5rem;
+}
+.descriptionLinks {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.descriptionText {
+  color: #425466;
+  font-size: 1em;
+  line-height: 2rem;
+}
+.descriptionLink {
+  color: white;
+  background-color: #0a2540;
+  height: 2rem;
+  width: 10rem;
+  border-radius: 15px;
+  font-size: 15px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  outline: none;
+  margin-right: 2rem;
+}
+.descriptionLinkTwo {
+  color: #0a2540;
+  outline: none;
+}
+.cards {
+  width: 75%;
+  position: relative;
+  right: -176px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+}
+.cardsItem {
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  box-shadow: 2px 0px 42px 6px rgba(22, 21, 21, 0.19);
+  padding: 0.5rem;
+  justify-content: space-between;
+}
+.one {
+  background-size: cover;
+  background-image: url(https://images.ctfassets.net/fzn2n1nzq965/6JJ6KzXzDoqTUjafQlX3w8/b71d1df1b00a97a3d4e190de7c32e09c/Glossier_portrait.png?fm=webp&w=508&q=80);
+}
+.two {
+  position: relative;
+  top: -4rem;
+  background-size: cover;
+  background-image: url(https://images.ctfassets.net/fzn2n1nzq965/7Ev5Voqr4JBdUIygfkD1T4/7363a8e6f0073cacbbe2e2dbe4b337b5/MatchesFashion_portrait.png?fm=webp&w=508&q=80);
+}
+.three {
+  position: relative;
+  top: 3rem;
+  background-size: cover;
+  background-image: url(https://images.ctfassets.net/fzn2n1nzq965/78uau1YR1iWISwHh1Ivf8z/93438bcd3768ef2a76d8290a81a1d446/Substack_portrait.png?fm=webp&w=508&q=80);
+}
+.four {
+  background-size: cover;
+  background-image: url(https://images.ctfassets.net/fzn2n1nzq965/mSQz8itD0FfDgXQdgK5ga/fb8acbbe1cbc4cd83861d36cf9691ee6/Postmates_portrait.png?fm=webp&w=508&q=80);
+}
+.five {
+  position: relative;
+  top: -4rem;
+  background-size: cover;
+  background-image: url(https://images.ctfassets.net/fzn2n1nzq965/6ch3M3M3ymuFZP227wuFFr/19469cdb0f29c8fcab4596c25a75da78/Twilio_portrait.png?fm=webp&w=508&q=80);
+}
+.six {
+  position: relative;
+  top: 3rem;
+  background-size: cover;
+  background-image: url(https://images.ctfassets.net/fzn2n1nzq965/3p0c2gJOQAKsPPwgcQlsjp/075b0fca80439085dc33a73259a86572/Lightspeed_portrait.png?fm=webp&w=508&q=80);
+}
+.cardsItemTitleOne {
+  color: white;
+  font-style: italic;
+  font-weight: normal;
+  margin: 0;
+}
+.cardsItemTitleTwo {
+  color: white;
+  font-weight: normal;
+  font-size: 0.8rem;
+  letter-spacing: 0.8em;
+  margin: 0;
+}
+.cardsItemTitleThree {
+  color: white;
+  margin: 0;
+  font-weight: normal;
+}
+.cardsItemTitleFour {
+  color: white;
+  margin: 0;
+  font-weight: normal;
+}
+.cardsItemTitleFive {
+  color: white;
+  margin: 0;
+  font-weight: bold;
+}
+.cardsItemTitleSix {
+  color: white;
+  margin: 0;
+  font-weight: normal;
+}
+@media (max-width: 1024px) {
+  .payments {
+    width: 90%;
+  }
+  .cards {
+    right: -97px;
+  }
+  .descriptionTitle {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .payments {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 3rem;
+  }
+  .paymentsDescription {
+    width: 100%;
+  }
+  .cards {
+    right: 13px;
+    width: 90%;
+    grid-template-rows: 200px 200px 200px;
+    top: 100px;
+  }
+}

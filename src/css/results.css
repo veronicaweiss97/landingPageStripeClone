@@ -1,0 +1,37 @@
+.results {
+  margin-bottom: 10rem;
+  width: 95%;
+}
+.resultsTitle {
+  color: #0a2540;
+  font-size: 2.25rem;
+}
+.resultsContent {
+  display: flex;
+  justify-content: space-between;
+}
+.resultsContentItem {
+  width: 20%;
+  border-left: 1px solid #425466;
+  padding: 1rem;
+}
+.resultsContentItemTitle {
+  font-size: 1.5em;
+  color: #0a2540;
+  margin: 0;
+  margin-bottom: 15px;
+}
+.resultsContentItemText {
+  color: #425466;
+  letter-spacing: 0.1rem;
+  font-weight: normal;
+  font-size: 0.8em;
+  margin: 0;
+}
+@media (max-width: 1024px) {
+  .results {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+  }
+}
